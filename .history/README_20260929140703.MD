@@ -1,0 +1,87 @@
+# 🎬 Custom Video Player
+
+A custom video player built using **HTML, CSS, and JavaScript**.  
+This project replaces the browser's default video controls with a custom interface that allows users to play/pause the video, adjust volume, change playback speed, skip forward/backward, and control the video progress.
+
+## ✨ Features
+
+- ▶️ Play and pause the video
+- ⏪ Skip backward by 10 seconds
+- ⏩ Skip forward by 10 seconds
+- 🔊 Adjust video volume
+- ⚡ Change playback speed
+- 📊 Interactive video progress bar
+- 🖱️ Click or drag on the progress bar to seek
+- 🎨 Custom styled video controls
+- 📱 Responsive video player layout
+- 🎯 Font Awesome icons for control buttons
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Font Awesome**
+
+## 📂 Project Structure
+
+```text
+Custom-Video-Player/
+│
+├── index.html
+├── style.css
+├── script.js
+└── 652333414.mp4
+```
+
+## 🧠 JavaScript Concepts Practiced
+
+This project helped me practice:
+
+- DOM selection using `querySelector()` and `querySelectorAll()`
+- Event listeners
+- JavaScript functions
+- HTML5 Video API
+- `play()` and `pause()`
+- `currentTime`
+- `duration`
+- `volume`
+- `playbackRate`
+- `dataset`
+- `parseFloat()`
+- Mouse events
+- Updating CSS dynamically with JavaScript
+- Working with HTML `<input type="range">`
+
+## ⚙️ How It Works
+
+The JavaScript interacts directly with the HTML5 `<video>` element.
+
+- The **Play/Pause** button checks whether the video is paused and calls either `play()` or `pause()`.
+- The **Skip buttons** modify `video.currentTime` using the value stored in `data-skip`.
+- The **Volume slider** updates the video's `volume`.
+- The **Playback speed slider** updates `playbackRate`.
+- The **Progress bar** calculates the current playback percentage using the video's `currentTime` and `duration`.
+- Clicking or dragging the progress bar changes the video's `currentTime`.
+
+## 🚀 How to Run
+
+1. Clone this repository:
+
+2. Open the project folder in VS Code.
+
+3. Make sure the video file is present in the project folder.
+
+4. Open `index.html` in your browser.
+
+5. Use the custom controls to interact with the video.
+
+## 📌 Key Learning
+
+This project gave me practical experience working with the **HTML5 Video API** and helped me understand how JavaScript can control multimedia elements and dynamically update the UI based on user interactions.
+
+## 👩‍💻 Author
+
+**Saiee Bawake**
+
+Built as part of my JavaScript learning journey.

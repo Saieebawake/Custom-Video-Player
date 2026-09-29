@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background: #e92a25;
+    min-height: 100vh;
+    background: linear-gradient(135deg, # 0%, #af0f0b 48%, #d4211c 100%);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    max-width: 750px;
+}
